@@ -10,6 +10,7 @@ tags:
   - "socai"
 websiteUrl: "https://socai-io.github.io/jev-social/"
 githubUrl: "https://github.com/socai-io/jev-social"
+logoUrl: "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fsocai-io.github.io%2Fjev-social%2F"
 ogImageUrl: "https://raw.githubusercontent.com/socai-io/jev-social/main/docs/banner.png"
 pricing: "open-source"
 classification: "agent-native"
