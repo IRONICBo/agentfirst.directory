@@ -26,7 +26,6 @@
   "hermes-agent": "foo-bender",
   "honcho": "foo-bender",
   "hronaut": "Hronom",
-  "jev-social": "IRONICBo",
   "kapso": "bradvin",
   "kite": "bradvin",
   "kitesurf": "foo-bender",
@@ -46,5 +45,6 @@
   "supermemory": "foo-bender",
   "symphony": "bradvin",
   "vapi": "bradvin",
-  "x402": "foo-bender"
+  "x402": "foo-bender",
+  "jev-social": "IRONICBo"
 }
