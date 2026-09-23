@@ -15,7 +15,7 @@ ogImageUrl: "https://raw.githubusercontent.com/socai-io/jev-social/main/docs/ban
 pricing: "open-source"
 classification: "agent-native"
 entityType: "software-application"
-developerName: "SocAI"
+developerName: "socai"
 docsUrl: "https://github.com/socai-io/jev-social#readme"
 licenseUrl: "https://github.com/socai-io/jev-social/blob/699c04890a7930827f8dfa2ba9eef6378c7b5fdf/LICENSE"
 interfaces:
