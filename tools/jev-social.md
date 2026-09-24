@@ -10,7 +10,7 @@ tags:
   - "socai"
 websiteUrl: "https://socai-io.github.io/jev-social/"
 githubUrl: "https://github.com/socai-io/jev-social"
-logoUrl: "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fsocai-io.github.io%2Fjev-social%2F"
+logoUrl: "https://socai-io.github.io/jev-social/favicon.svg"
 ogImageUrl: "https://raw.githubusercontent.com/socai-io/jev-social/main/docs/banner.png"
 pricing: "open-source"
 classification: "agent-native"
@@ -57,5 +57,5 @@ Jev Social is a local social research agent. Jev chooses each next read-only ope
 ## So agents can...
 
 - search Instagram, TikTok, or LinkedIn and choose which observed result to inspect next
-- read selected profiles, posts, comments, and replies without generating arbitrary browser actions or shell commands
+- read selected profiles, posts, and comments without generating arbitrary browser actions or shell commands
 - preserve preview cards, source links, operation history, and an evidence report for review
