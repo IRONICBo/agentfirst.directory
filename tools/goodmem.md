@@ -2,6 +2,9 @@
 slug: "goodmem"
 name: "GoodMem"
 description: "Persistent, access-controlled memory and retrieval for AI agents"
+agentSummary: "GoodMem gives agent builders persistent memory spaces for storing and semantically retrieving task history, research, and shared context across sessions. It supports scoped service identities and API keys for unattended workloads, plus REST, SDK, framework, and MCP access. The native HTTP MCP surface is early access and retrieval-only; ingestion uses other interfaces."
+seoTitle: "GoodMem: Persistent Memory and Retrieval for AI Agents"
+seoDescription: "Explore GoodMem's persistent memory spaces, semantic retrieval, scoped workload access, and REST, SDK, framework, and MCP interfaces for agent workflows."
 category: "long-term-memory-state-management"
 tags:
   - "agent-memory"
@@ -64,6 +67,8 @@ evidenceSources:
     accessedAt: "2026-09-15"
     sourceType: "official-license"
 verificationLevel: "documentation-reviewed"
+reviewedBy: "foo-bender"
+reviewedAt: "2026-09-25"
 classificationRationaleMd: "GoodMem provides persistent memory spaces, retrieval tools, and scoped workload access that agents integrate into their own workflows. It also serves conventional RAG applications, so agent-enabling describes its role."
 inclusionRationaleMd: "Agents can retain task history and findings in durable memory spaces, retrieve them in later sessions, and share context with other authorized workloads. The service supplies memory storage and access controls as well as retrieval."
 bestForMd: "Agent builders who need searchable task history, research findings, or shared knowledge across sessions, with scoped access and a choice of self-hosted or managed deployment."
