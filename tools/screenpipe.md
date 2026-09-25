@@ -2,6 +2,9 @@
 slug: "screenpipe"
 name: "Screenpipe"
 description: "Local screen and audio history that gives AI agents persistent context across apps"
+agentSummary: "Screenpipe is suited to assistants that need evidence from a user's prior work across applications. It captures screen, audio, and accessibility context into searchable local history, then exposes that history through a local API and MCP. Raw recordings stay local by default, while configured cloud models, sync, and integrations create separate data boundaries."
+seoTitle: "Screenpipe: Cross-App Work Memory for AI Agents"
+seoDescription: "See how Screenpipe captures searchable screen and audio history locally, then exposes work context to agents through a REST API and MCP server."
 category: "long-term-memory-state-management"
 tags:
   - "agent-memory"
@@ -50,6 +53,8 @@ evidenceSources:
     accessedAt: "2026-09-18"
     sourceType: "official-license"
 verificationLevel: "documentation-reviewed"
+reviewedBy: "foo-bender"
+reviewedAt: "2026-09-25"
 classificationRationaleMd: "Screenpipe maintains a changing, persistent record of a person's cross-app work and makes that history available to agents across sessions. Its substantive contribution is capturing and preserving work context that an agent otherwise lacks, rather than only wrapping an existing API."
 bestForMd: "Personal assistants and work agents that need to recall previously seen content, retrieve meeting context, or assemble summaries from recorded activity across applications."
 limitationsMd: "Screenpipe must be running and have captured the relevant activity. OS recording permissions, exclusions, retention and plan limits affect coverage. Local storage does not make every workflow local: connected assistants, cloud providers and integrations may receive context, and telemetry has separate controls. Review exposed MCP tools and agent permissions because capabilities extend beyond retrieval. Source-available licensing restricts commercial use."
