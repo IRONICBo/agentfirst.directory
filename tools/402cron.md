@@ -2,6 +2,9 @@
 slug: "402cron"
 name: "402cron"
 description: "Hosted scheduled HTTP delivery for agents, with REST and MCP management and prepaid x402 credits."
+agentSummary: "402cron suits agent workflows that need recurring HTTP calls after the initiating session ends. Agents can buy delivery credits through x402, register and verify an HTTPS destination, and manage schedules through REST or MCP. The service signs deliveries and records attempts, but receivers must handle at-least-once delivery and downstream execution themselves."
+seoTitle: "402cron: Scheduled HTTP Delivery for AI Agents"
+seoDescription: "See how 402cron lets agents manage recurring signed HTTP deliveries through REST or MCP, using x402 credits and verified HTTPS destinations."
 category: "api-access-orchestration-layers"
 tags: ["mcp", "x402", "scheduling", "webhooks"]
 websiteUrl: "https://402cron.com"
@@ -14,6 +17,8 @@ docsUrl: "https://402cron.com/docs"
 interfaces: ["REST API", "MCP"]
 deploymentModes: ["hosted"]
 verificationLevel: "documentation-reviewed"
+reviewedBy: "foo-bender"
+reviewedAt: "2026-09-25"
 classificationRationaleMd: "Agents can provision prepaid delivery capacity through x402 and manage persistent HTTP schedules through MCP. The service performs later deliveries without requiring the initiating agent session to remain running."
 inclusionRationaleMd: "Combines agent-accessible provisioning and schedule management with destination verification, signed requests, and delivery records. This provides deferred external API execution beyond a synchronous tool call."
 bestForMd: "Agent workflows that need recurring requests to verified HTTPS receivers without maintaining their own scheduler."
