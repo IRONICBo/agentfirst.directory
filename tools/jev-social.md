@@ -2,6 +2,9 @@
 slug: "jev-social"
 name: "Jev Social"
 description: "Local social research agent with typed Jev decisions and browser-grounded evidence"
+agentSummary: "Jev Social is for local social research where an agent should choose the next bounded browser operation from observed results. Jev selects supported read-only searches and page inspections, while socai executes them in the user's Chrome and returns evidence to the loop. Runs preserve operation history and can finish with partial results when access is blocked."
+seoTitle: "Jev Social: Browser-Grounded Social Research Agent"
+seoDescription: "Inspect how Jev Social chooses bounded Instagram, TikTok, and LinkedIn research steps, runs them through socai in Chrome, and preserves evidence."
 category: "web-browser-interaction-tools"
 tags:
   - "browser"
@@ -24,6 +27,8 @@ interfaces:
 deploymentModes:
   - "local"
 verificationLevel: "documentation-reviewed"
+reviewedBy: "foo-bender"
+reviewedAt: "2026-09-25"
 classificationRationaleMd: "Jev is the core decision actor: it repeatedly selects one bounded social-browser operation from targets observed in prior results, while socai executes the selected operation in Chrome. Removing that decision loop would fundamentally change the product into direct manual CLI use."
 bestForMd: "Local Instagram, TikTok, or LinkedIn research where an agent should choose which observed profile, post, comments, or video to inspect and preserve the evidence behind its report."
 notBestForMd: "General-purpose browser automation, unattended account operation, or research that requires bypassing login, CAPTCHA, rate limits, or access controls."
