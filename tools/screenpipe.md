@@ -54,7 +54,7 @@ evidenceSources:
     sourceType: "official-license"
 verificationLevel: "documentation-reviewed"
 reviewedBy: "foo-bender"
-reviewedAt: "2026-09-25"
+reviewedAt: "2026-09-26"
 classificationRationaleMd: "Screenpipe maintains a changing, persistent record of a person's cross-app work and makes that history available to agents across sessions. Its substantive contribution is capturing and preserving work context that an agent otherwise lacks, rather than only wrapping an existing API."
 bestForMd: "Personal assistants and work agents that need to recall previously seen content, retrieve meeting context, or assemble summaries from recorded activity across applications."
 limitationsMd: "Screenpipe must be running and have captured the relevant activity. OS recording permissions, exclusions, retention and plan limits affect coverage. Local storage does not make every workflow local: connected assistants, cloud providers and integrations may receive context, and telemetry has separate controls. Review exposed MCP tools and agent permissions because capabilities extend beyond retrieval. Source-available licensing restricts commercial use."
